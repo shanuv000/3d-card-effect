@@ -62,6 +62,13 @@ body {
   font-weight: lighter;
   transition: all 0.75s ease-out;
 }
+.author {
+  font-size: 1rem;
+  padding: 1.5rem 0rem;
+  color: #6a4343;
+  font-weight: lighter;
+  transition: all 0.75s ease-out;
+}
 .sizes {
   display: flex;
   justify-content: space-between;
