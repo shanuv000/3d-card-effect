@@ -62,13 +62,7 @@ body {
   font-weight: lighter;
   transition: all 0.75s ease-out;
 }
-.author {
-  font-size: 1rem;
-  padding: 1.5rem 0rem;
-  color: #6a4343;
-  font-weight: lighter;
-  transition: all 0.75s ease-out;
-}
+
 .sizes {
   display: flex;
   justify-content: space-between;
@@ -101,4 +95,27 @@ button.active {
   cursor: pointer;
   border-radius: 30px;
   font-weight: bolder;
+}
+/* a:link {
+  text-decoration: none;
+}
+a:hover {
+  color: hotpink;
+} */
+a:link,
+a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.75s ease-out;
+}
+.author {
+  font-size: 1.5rem;
+  padding: 1rem 0rem;
+  color: #6a4343;
+  font-weight: lighter;
+  transition: all 0.75s ease-out;
 }
